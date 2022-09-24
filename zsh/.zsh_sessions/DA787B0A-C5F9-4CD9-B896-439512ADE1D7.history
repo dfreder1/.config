@@ -1,0 +1,1004 @@
+: 1664055970:0;top
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;ls -lsh
+: 1664055970:0;ls
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;cd evernotesdk
+: 1664055970:0;git status
+: 1664055970:0;ls
+: 1664055970:0;cd code
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd python3
+: 1664055970:0;ls
+: 1664055970:0;cd bikewxx
+: 1664055970:0;ls
+: 1664055970:0;git status
+: 1664055970:0;cd 
+: 1664055970:0;ls
+: 1664055970:0;lsd
+: 1664055970:0;cd /etc
+: 1664055970:0;ls
+: 1664055970:0;cat shells
+: 1664055970:0;echo $0
+: 1664055970:0;bash
+: 1664055970:0;echo $0
+: 1664055970:0;csh
+: 1664055970:0;which screen
+: 1664055970:0;bash
+: 1664055970:0;ls
+: 1664055970:0;cd
+: 1664055970:0;man brew
+: 1664055970:0;man brew | grep 'list'
+: 1664055970:0;brew list
+: 1664055970:0;man brew --list
+: 1664055970:0;man brew list
+: 1664055970:0;brew desc -n liidn2
+: 1664055970:0;brew desc -n freetype
+: 1664055970:0;man brew
+: 1664055970:0;brew search shell
+: 1664055970:0;brew search powerline
+: 1664055970:0;cd
+: 1664055970:0;vi .zshrc
+: 1664055970:0;lsd
+: 1664055970:0;ls -a
+: 1664055970:0;cd .viminfo
+: 1664055970:0;cat .viminfo
+: 1664055970:0;cd .vim
+: 1664055970:0;ls
+: 1664055970:0;which vi
+: 1664055970:0;which vim
+: 1664055970:0;man vi
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd /etc
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;ls -l
+: 1664055970:0;man vim
+: 1664055970:0;vi
+: 1664055970:0;cd
+: 1664055970:0;ls
+: 1664055970:0;ls -l
+: 1664055970:0;ls -a
+: 1664055970:0;pwd
+: 1664055970:0;mv .vimrc ~/.vim/
+: 1664055970:0;ls -a
+: 1664055970:0;cd .vim
+: 1664055970:0;ls
+: 1664055970:0;~
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd .vim
+: 1664055970:0;ls -a
+: 1664055970:0;vi .netrwhist
+: 1664055970:0;exit
+: 1664055970:0;vi .vim/.vimrc
+: 1664055970:0;exit
+: 1664055970:0;vi .vim/.vimrc
+: 1664055970:0;vi --verbose
+: 1664055970:0;vim -h
+: 1664055970:0;vim -u .vim/.vimrc
+: 1664055970:0;vi .vim/.vimrc
+: 1664055970:0;vim
+: 1664055970:0;vi
+: 1664055970:0;$shell
+: 1664055970:0;echo $SHELL
+: 1664055970:0;echo $TERM
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;vi .zprofile
+: 1664055970:0;exit
+: 1664055970:0;z /etc
+: 1664055970:0;z
+: 1664055970:0;vi
+: 1664055970:0;which vi
+: 1664055970:0;cd /usr/bin
+: 1664055970:0;ls
+: 1664055970:0;ls v*
+: 1664055970:0;ls -a *v
+: 1664055970:0;ls
+: 1664055970:0;cd vi
+: 1664055970:0;cd vim
+: 1664055970:0;vi
+: 1664055970:0;vim
+: 1664055970:0;vi
+: 1664055970:0;ls -a
+: 1664055970:0;ls -l
+: 1664055970:0;vimtutor
+: 1664055970:0;cd
+: 1664055970:0;mv ~/.vim/.vimrc ~/
+: 1664055970:0;ls -l
+: 1664055970:0;ls -la
+: 1664055970:0;vi
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;cd python3
+: 1664055970:0;ls
+: 1664055970:0;cd bikewxx
+: 1664055970:0;ls
+: 1664055970:0;vi get_wx_data.py
+: 1664055970:0;vi
+: 1664055970:0;ls -la
+: 1664055970:0;cd .vim
+: 1664055970:0;ls
+: 1664055970:0;cd colors
+: 1664055970:0;vi colors
+: 1664055970:0;vi
+: 1664055970:0;cd .vim/bundle
+: 1664055970:0;cd .vim
+: 1664055970:0;mkdir bundle
+: 1664055970:0;cd bundle
+: 1664055970:0;git clone https://github.com/tpope/vim-vividchalk
+: 1664055970:0;vi ~/.vimrc
+: 1664055970:0;mkdir -p ~/.vim/autoload ~/.vim/bundle && \\
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+: 1664055970:0;cd
+: 1664055970:0;cd .vim
+: 1664055970:0;ls -a
+: 1664055970:0;cd bundle
+: 1664055970:0;ls
+: 1664055970:0;vi
+: 1664055970:0;cd ..
+: 1664055970:0;vi .vimrc
+: 1664055970:0;cd .vim/bundle
+: 1664055970:0;git clone https://github.com/junegunn/goyo.vim
+: 1664055970:0;exit
+: 1664055970:0;vi
+: 1664055970:0;vi .vimrc
+: 1664055970:0;cd .vim/bundle
+: 1664055970:0;git clone https://github.com/junegunn/limelight.vim
+: 1664055970:0;ls
+: 1664055970:0;exit
+: 1664055970:0;vi
+: 1664055970:0;vi text
+: 1664055970:0;vi .vimrc
+: 1664055970:0;vi text
+: 1664055970:0;ls
+: 1664055970:0;vi test
+: 1664055970:0;cd
+: 1664055970:0;ls
+: 1664055970:0;vi text
+: 1664055970:0;vi .vimrc
+: 1664055970:0;vi .zshrc
+: 1664055970:0;cd .oh-my-zsh
+: 1664055970:0;ls -a
+: 1664055970:0;cd plugins
+: 1664055970:0;ls
+: 1664055970:0;ls bazel
+: 1664055970:0;ls 
+: 1664055970:0;cd ..
+: 1664055970:0;ls tools
+: 1664055970:0;ls CODE_OF_CONDUCT.md
+: 1664055970:0;cat CODE_OF_CONDUCT.md
+: 1664055970:0;echo hello
+: 1664055970:0;cd ..
+: 1664055970:0;read x
+: 1664055970:0;echo bob
+: 1664055970:0;echo $x
+: 1664055970:0;read p "pick number" y
+: 1664055970:0;read -p "pick number" y
+: 1664055970:0;read "pick number" y
+: 1664055970:0;read -p "pick number:" y
+: 1664055970:0;man read
+: 1664055970:0;xit
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;cat wpa_supplicant.conf
+: 1664055970:0;ls
+: 1664055970:0;brew list iterm2
+: 1664055970:0;which brew
+: 1664055970:0;cd 
+: 1664055970:0;ls
+: 1664055970:0;which brew
+: 1664055970:0;exit
+: 1664055970:0;arch
+: 1664055970:0;which brew
+: 1664055970:0;cd Projects
+: 1664055970:0;which brew
+: 1664055970:0;cd ..
+: 1664055970:0;cd /etc
+: 1664055970:0;ls
+: 1664055970:0;echo $SHELL
+: 1664055970:0;CAT /BIN
+: 1664055970:0;LS /bin
+: 1664055970:0;man brew
+: 1664055970:0;cd /opt
+: 1664055970:0;ls
+: 1664055970:0;cd homebrew
+: 1664055970:0;ls
+: 1664055970:0;cd /log
+: 1664055970:0;cd /etc
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd /var
+: 1664055970:0;ls
+: 1664055970:0;cd logs
+: 1664055970:0;ls
+: 1664055970:0;which brew
+: 1664055970:0;ls
+: 1664055970:0;which brew
+: 1664055970:0;ls
+: 1664055970:0;which brew
+: 1664055970:0;echo $PATH
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;vi .zshrc
+: 1664055970:0;echo $PATH
+: 1664055970:0;export PATH=$HOME/bin:/usr/local/bin:$PATH
+: 1664055970:0;echo $PATH
+: 1664055970:0;export PATH=$HOME/bin:/usr/local/bin:$PATH
+: 1664055970:0;echo $PATH
+: 1664055970:0;cd /usr/local/bin
+: 1664055970:0;ls
+: 1664055970:0;cd pat
+: 1664055970:0;ls
+: 1664055970:0;which zsh
+: 1664055970:0;echo $shell
+: 1664055970:0;echo $SHELL
+: 1664055970:0;CD /opt/homebrew
+: 1664055970:0;ls
+: 1664055970:0;cd /opt
+: 1664055970:0;ls
+: 1664055970:0;cd homebrew
+: 1664055970:0;ls
+: 1664055970:0;cd bin
+: 1664055970:0;ls
+: 1664055970:0;export PATH=$PATH:/opt/homebrew/bin
+: 1664055970:0;echo $PATH
+: 1664055970:0;cd
+: 1664055970:0;echo export PATH=$PATH:/opt/homebrew/bin >> .zshrc
+: 1664055970:0;echo $PATH
+: 1664055970:0;which brew
+: 1664055970:0;vi .zshrc
+: 1664055970:0;exit
+: 1664055970:0;which brew
+: 1664055970:0;vi text
+: 1664055970:0;cd Downloads
+: 1664055970:0;cd
+: 1664055970:0;ls
+: 1664055970:0;vi .zshrc
+: 1664055970:0;vi .vimrc
+: 1664055970:0;vi .zshrc
+: 1664055970:0;vi .vimrc
+: 1664055970:0;vi .zshrc
+: 1664055970:0;which brew
+: 1664055970:0;vi .zshrc
+: 1664055970:0;env|grep 'FLAGS\|PATH'
+: 1664055970:0;cat ~/.zprofile
+: 1664055970:0;vi .zprofile
+: 1664055970:0;vi .zshrc
+: 1664055970:0;which brew
+: 1664055970:0;vi .vimrc
+: 1664055970:0;vi text
+: 1664055970:0;vi .vimrc
+: 1664055970:0;vi text
+: 1664055970:0;vi .vimrc
+: 1664055970:0;vi text
+: 1664055970:0;ls
+: 1664055970:0;ls =a
+: 1664055970:0;ls -a
+: 1664055970:0;touch .bashrc
+: 1664055970:0;cat 'echo "shouldn't be seeing this since should be using zshrc" > .bashrc\
+\
+:\
+"
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;vi .bashrc
+: 1664055970:0;bash
+: 1664055970:0;which brew
+: 1664055970:0;bash
+: 1664055970:0;brew installed
+: 1664055970:0;brew list installed
+: 1664055970:0;brew list
+: 1664055970:0;brew update
+: 1664055970:0;man brew
+: 1664055970:0;vi text
+: 1664055970:0;$ARCHPREFERENCE
+: 1664055970:0;ECHO $ARCHPREFERENCE
+: 1664055970:0;machine
+: 1664055970:0;brew list outdated
+: 1664055970:0;which brew
+: 1664055970:0;man brew
+: 1664055970:0;brew outdated
+: 1664055970:0;brew list
+: 1664055970:0;xcrun
+: 1664055970:0;xcode-select -p
+: 1664055970:0;vi text
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;cd Movies
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;cd .zsh
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd .zshrc.pre-oh-my-zsh
+: 1664055970:0;which brew
+: 1664055970:0;cd .oh-my-zsh
+: 1664055970:0;ls
+: 1664055970:0;ls plugins
+: 1664055970:0;ls
+: 1664055970:0;ls themes
+: 1664055970:0;cd 
+: 1664055970:0;ls
+: 1664055970:0;cd Library
+: 1664055970:0;ls
+: 1664055970:0;cd Fonts
+: 1664055970:0;ls
+: 1664055970:0;git clone https://github.com/powerline/fonts.git --depth=1
+: 1664055970:0;ls
+: 1664055970:0;vi text
+: 1664055970:0;cat text
+: 1664055970:0;ls
+: 1664055970:0;:q
+: 1664055970:0;exit
+: 1664055970:0;which iterm
+: 1664055970:0;which iterm2
+: 1664055970:0;which terminal
+: 1664055970:0;which term
+: 1664055970:0;ls
+: 1664055970:0;CCC
+: 1664055970:0;eit
+: 1664055970:0;exit
+: 1664055970:0;ls -l
+: 1664055970:0;ls -la
+: 1664055970:0;ls -la | less
+: 1664055970:0;ls
+: 1664055970:0;mkdir .fonts
+: 1664055970:0;cd .fonts
+: 1664055970:0;git clone https://github.com/powerline/fonts.git --depth=1
+: 1664055970:0;ls -la
+: 1664055970:0;cd fonts
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;mv ~/.fonts/fonts ~/ -R
+: 1664055970:0;man mv
+: 1664055970:0;ls
+: 1664055970:0;mv ~/.fonts/fonts ~/
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd Fonts
+: 1664055970:0;cd fonts
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd fonts
+: 1664055970:0;ls
+: 1664055970:0;mkdir powerline
+: 1664055970:0;mv ~/fonts ~/fonts/powerline
+: 1664055970:0;mv ~/fonts/ ~/fonts/powerline
+: 1664055970:0;mv ~/fonts/ ~/fonts/powerline/
+: 1664055970:0;pwd
+: 1664055970:0;mkdir powerline
+: 1664055970:0;ls
+: 1664055970:0;pwd
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd ~/
+: 1664055970:0;ls
+: 1664055970:0;cd fonts
+: 1664055970:0;ls
+: 1664055970:0;pwd
+: 1664055970:0;cd ..
+: 1664055970:0;pwd
+: 1664055970:0;LS
+: 1664055970:0;cd fonts
+: 1664055970:0;ls
+: 1664055970:0;cd powerline
+: 1664055970:0;ls
+: 1664055970:0;vi install.sh
+: 1664055970:0;echo $HOME
+: 1664055970:0;vi install.sh
+: 1664055970:0;ls
+: 1664055970:0;pwd
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd ~/
+: 1664055970:0;ls
+: 1664055970:0;pwd
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls -la
+: 1664055970:0;rm .fonts
+: 1664055970:0;man rmdir
+: 1664055970:0;rmdir .fonts
+: 1664055970:0;ls -la
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;./install.sh
+: 1664055970:0;cd Library
+: 1664055970:0;ls
+: 1664055970:0;cd Fonts
+: 1664055970:0;ls
+: 1664055970:0;cd fonts
+: 1664055970:0;ls
+: 1664055970:0;vi README.rst
+: 1664055970:0;cd ~/
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;cd .zshrc
+: 1664055970:0;ls -la
+: 1664055970:0;cd ssh
+: 1664055970:0;cd .ssh
+: 1664055970:0;cd ..
+: 1664055970:0;ls -la
+: 1664055970:0;cd .zshrc
+: 1664055970:0;vi .zshrc.pre-oh-my-zsh
+: 1664055970:0;vi ssh
+: 1664055970:0;rm ssh
+: 1664055970:0;ls
+: 1664055970:0;ls 0la
+: 1664055970:0;ls -la
+: 1664055970:0;cd .oh-my-zsh
+: 1664055970:0;ls
+: 1664055970:0;cd themes
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;vi .zshrc
+: 1664055970:0;cd 
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;cd .oh-my-zsh
+: 1664055970:0;ls
+: 1664055970:0;cd themes
+: 1664055970:0;ls
+: 1664055970:0;:q
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;cd /Library/Fonts
+: 1664055970:0;ls
+: 1664055970:0;pwd
+: 1664055970:0;ls -la
+: 1664055970:0;cd .zshrc
+: 1664055970:0;vi .zshrc.pre-oh-my-zsh
+: 1664055970:0;ls -la
+: 1664055970:0;vi .zshrc
+: 1664055970:0;vi .zshrc.pre-oh-my-zsh
+: 1664055970:0;vi .zshrc
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;cd python3
+: 1664055970:0;ls
+: 1664055970:0;cd Text2Adx
+: 1664055970:0;git status
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;vi .zshrc
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;cd python3
+: 1664055970:0;ls
+: 1664055970:0;cd Text2Adx
+: 1664055970:0;git status
+: 1664055970:0;vi README.md
+: 1664055970:0;exit
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;git clone https://github.com/dfreder1/ArchTitus.git
+: 1664055970:0;ls
+: 1664055970:0;cd ArchTitus
+: 1664055970:0;git status
+: 1664055970:0;git checkout "evolve"
+: 1664055970:0;git branch evolve
+: 1664055970:0;git checkout evolve
+: 1664055970:0;git status
+: 1664055970:0;ls -la
+: 1664055970:0;vi README.md
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;cd ArchTitus
+: 1664055970:0;ls
+: 1664055970:0;git status
+: 1664055970:0;ls
+: 1664055970:0;cd scripts
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cat README.md
+: 1664055970:0;ls
+: 1664055970:0;vi archtitus.sh
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;cd ArchTitus
+: 1664055970:0;ls
+: 1664055970:0;cd scripts
+: 1664055970:0;ls
+: 1664055970:0;vi 0-preinstall.sh
+: 1664055970:0;cd Projects/ArchTitus
+: 1664055970:0;ls
+: 1664055970:0;cd configs
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd configs
+: 1664055970:0;ls
+: 1664055970:0;cd boot
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;git status
+: 1664055970:0;git commit
+: 1664055970:0;git commit -a
+: 1664055970:0;git commit -a "evolve"
+: 1664055970:0;git status
+: 1664055970:0;git add scripts/.0-preinstall.sh.swp
+: 1664055970:0;touch .part
+: 1664055970:0;git add .part
+: 1664055970:0;git status
+: 1664055970:0;git add README.md
+: 1664055970:0;git commit -m "evolve"
+: 1664055970:0;git push origin evolve
+: 1664055970:0;cd ~
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;vi .gitconfig
+: 1664055970:0;ls -la
+: 1664055970:0;cd .ssh
+: 1664055970:0;ls -la
+: 1664055970:0;cat github_rsa.pub
+: 1664055970:0;which gpg
+: 1664055970:0;man gpg
+: 1664055970:0;cd ~
+: 1664055970:0;cd .ssh
+: 1664055970:0;ls
+: 1664055970:0;gpg -k
+: 1664055970:0;gpg --show-keys
+: 1664055970:0;gpg github_rsa --show-keys
+: 1664055970:0;man | grep 'id'
+: 1664055970:0;man gpg | grep 'id'
+: 1664055970:0;man gpg | grep id
+: 1664055970:0;man gpg | grep keyid
+: 1664055970:0;gpg --list-sigs
+: 1664055970:0;which sha1
+: 1664055970:0;ls -la
+: 1664055970:0;cat github_rsa.pub
+: 1664055970:0;cat doug@pine64pro.pub
+: 1664055970:0;cat id_rsa_6.pub
+: 1664055970:0;cat id_rsa_doug@debianC710.pub
+: 1664055970:0;cat mini_id_rsa.pub
+: 1664055970:0;ls -la
+: 1664055970:0;cat id_rsa_doug@pinepro.pub
+: 1664055970:0;cat id_rsa_doug@pine64pro.pub
+: 1664055970:0;cat id_rsa_userdoug_on_Dougs-MacBook-Pro.pub
+: 1664055970:0;vi authorized_keys
+: 1664055970:0;ls -la
+: 1664055970:0;vi github_rsa.pub
+: 1664055970:0;cat github_rsa.pub 
+: 1664055970:0;which sha256
+: 1664055970:0;shasum -a 256 github_rsa.pub
+: 1664055970:0;cp gi
+: 1664055970:0;shasum -a 256 github_rsa
+: 1664055970:0;cp github_rsa.pub a.pub
+: 1664055970:0;vi a.pub
+: 1664055970:0;shasum -a 256 a.puba
+: 1664055970:0;shasum -a 256 a.pub
+: 1664055970:0;rm a.pub
+: 1664055970:0;ls
+: 1664055970:0;git push origin evolve
+: 1664055970:0;ssh -T git@github.com
+: 1664055970:0;ssh-keygen -t ed25519 -C "dugfredericks@gmail.com"
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;mv github* ~/.ssh
+: 1664055970:0;ls
+: 1664055970:0;vi github2.pub
+: 1664055970:0;vi config
+: 1664055970:0;eval "$(ssh-agent -s)"
+: 1664055970:0;ssh-add -K ~/.ssh/github2
+: 1664055970:0;pbcopy < ~/.ssh/github2
+: 1664055970:0;pbcopy < ~/.ssh/github2.pub
+: 1664055970:0;ssh -T git@github.com
+: 1664055970:0;git push origin evolve
+: 1664055970:0;exite
+: 1664055970:0;exit
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;cd ArchTitus
+: 1664055970:0;ls
+: 1664055970:0;git status
+: 1664055970:0;git push origin evolve
+: 1664055970:0;git remote rm origin
+: 1664055970:0;git remote add origin git@github.com:dfreder1/ArchTitus.git
+: 1664055970:0;git status
+: 1664055970:0;git fetch origin
+: 1664055970:0;git status
+: 1664055970:0;git push origin evolve
+: 1664055970:0;cd .ssh
+: 1664055970:0;ls -la
+: 1664055970:0;cat config
+: 1664055970:0;ls
+: 1664055970:0;cd scripts
+: 1664055970:0;ls
+: 1664055970:0;cp 1-setup.sh 00part.sh
+: 1664055970:0;git status
+: 1664055970:0;git add 00part.sh
+: 1664055970:0;git commit -m "addfiles"
+: 1664055970:0;git push origin evolve
+: 1664055970:0;ls
+: 1664055970:0;vi 00part.sh
+: 1664055970:0;man echo
+: 1664055970:0;cd ~
+: 1664055970:0;ls
+: 1664055970:0;cd Projects
+: 1664055970:0;cd ArchTitus
+: 1664055970:0;ls
+: 1664055970:0;cd scripts
+: 1664055970:0;ls
+: 1664055970:0;vi 1-setup.sh
+: 1664055970:0;exi
+: 1664055970:0;exit
+: 1664055970:0;cd Projects
+: 1664055970:0;cd ArchTitus
+: 1664055970:0;ls
+: 1664055970:0;cd scripts
+: 1664055970:0;git status
+: 1664055970:0;git add 00part.sh
+: 1664055970:0;git push origin evolve
+: 1664055970:0;vi 00part.sh
+: 1664055970:0;cat 00part.sh
+: 1664055970:0;git status
+: 1664055970:0;git commit -m 'evolve'
+: 1664055970:0;git push origin evolve
+: 1664055970:0;ssh -i ~/.ssh/mini_id_rsa billevans@192.168.1.217
+: 1664055970:0;exit
+: 1664055970:0;clear
+: 1664055970:0;ssh root@137.184.238.171 
+: 1664055970:0;which pgadmin4
+: 1664055970:0;which pgadmin
+: 1664055970:0;which postgres
+: 1664055970:0;cd .ssh
+: 1664055970:0;ls
+: 1664055970:0;ssh root@137.184.238.171 
+: 1664055970:0;exit
+: 1664055970:0;ssh root@137.184.238.171 
+: 1664055970:0;exit
+: 1664055970:0;ls
+: 1664055970:0;ssh root@137.184.238.171 
+: 1664055970:0;ssh root@143.110.148.217
+: 1664055970:0;exit
+: 1664055970:0;ssh root@143.110.148.217
+: 1664055970:0;exit
+: 1664055970:0;ssh root@143.110.148.217
+: 1664055970:0;/var
+: 1664055970:0;ls
+: 1664055970:0;cd mobile
+: 1664055970:0;ls
+: 1664055970:0;exit
+: 1664055970:0;ssh -i ~/.ssh/mini_id_rsa billevans@192.168.1.217
+: 1664055970:0;ls
+: 1664055970:0;ssh -i ~/.ssh/mini_id_rsa billevans@192.168.1.217
+: 1664055970:0;exit
+: 1664055970:0;ssh root@137.184.238.171 
+: 1664055970:0;ssh root@143.110.148.217
+: 1664055970:0;sshon7
+: 1664055970:0;dougdroplet2
+: 1664055970:0;exit
+: 1664055970:0;dougdroplet2
+: 1664055970:0;xit
+: 1664055970:0;exit
+: 1664055970:0;ssh root@137.184.238.171
+: 1664055970:0;exit
+: 1664055970:0;brew list
+: 1664055970:0;brew outdated
+: 1664055970:0;brew list outdated
+: 1664055970:0;brew --help
+: 1664055970:0;brew help
+: 1664055970:0;brew outdated
+: 1664055970:0;brew autoremove
+: 1664055970:0;brew outdated -v
+: 1664055970:0;brew upgrade
+: 1664055970:0;brew search tmux
+: 1664055970:0;brew install tmux
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd /opt/homebrew/opt/tmux/share/tmux
+: 1664055970:0;ls
+: 1664055970:0;cp example_tmux.conf ~/.tmux
+: 1664055970:0;ls -a
+: 1664055970:0;cd .tmux
+: 1664055970:0;vi .tmux
+: 1664055970:0;tmux
+: 1664055970:0;ls
+: 1664055970:0;vi
+: 1664055970:0;tmux
+: 1664055970:0;ls -a
+: 1664055970:0;mv .tmux .tmux.conf
+: 1664055970:0;ls -a
+: 1664055970:0;vi .tmux.conf
+: 1664055970:0;exit
+: 1664055970:0;tmux
+: 1664055970:0;ssh -i ~/.ssh/mini_id_rsa billevans@192.168.1.217
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd .vim
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd bundle
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cat .vimrc | less
+: 1664055970:0;vi .vimrc
+: 1664055970:0;cd Library
+: 1664055970:0;ls
+: 1664055970:0;cd Containers
+: 1664055970:0;ls
+: 1664055970:0;ls ob*
+: 1664055970:0;ls | less
+: 1664055970:0;ls
+: 1664055970:0;cd Obsidian
+: 1664055970:0;ls
+: 1664055970:0;pwd
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd home
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd ..
+: 1664055970:0;cd Users
+: 1664055970:0;ls
+: 1664055970:0;cd dougs2021air
+: 1664055970:0;ls
+: 1664055970:0;cd Documents
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;cd Library
+: 1664055970:0;ls
+: 1664055970:0;cd Containers
+: 1664055970:0;ls
+: 1664055970:0;ls -a
+: 1664055970:0;cd ~/Library/Containers
+: 1664055970:0;ls
+: 1664055970:0;cd ~
+: 1664055970:0;ls
+: 1664055970:0;cd Projects
+: 1664055970:0;ls
+: 1664055970:0;mkdir myvimwiki
+: 1664055970:0;cd myvimwiki
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;rm myvimwiki
+: 1664055970:0;rmdir myvimwiki
+: 1664055970:0;exit
+: 1664055970:0;ssh -i ~/.ssh/mini_id_rsa billevans@192.168.1.217
+: 1664055970:0;exit
+: 1664055970:0;ssh -i ~/.ssh/mini_id_rsa billevans@192.168.1.217
+: 1664055970:0;exit
+: 1664055970:0;clear
+: 1664055970:0;ls -a
+: 1664055970:0;ls -la
+: 1664055970:0;cd ~
+: 1664055970:0;ls -la
+: 1664055970:0;mv .vimrc ~/.vim
+: 1664055970:0;ls -la
+: 1664055970:0;vim
+: 1664055970:0;vim .z
+: 1664055970:0;vim .tmux.conf
+: 1664055970:0;vim .vim/.vimrc
+: 1664055970:0;mv .vim/.vimrc ~/
+: 1664055970:0;ls -la
+: 1664055970:0;vi .ssh
+: 1664055970:0;ls -la
+: 1664055970:0;mv .vimrc ~/.vim
+: 1664055970:0;mv ~/.vim/.vimrc ~/.vim/vimrc
+: 1664055970:0;vi .viminfo
+: 1664055970:0;ls
+: 1664055970:0;cd .vim
+: 1664055970:0;ls
+: 1664055970:0;git status
+: 1664055970:0;git init
+: 1664055970:0;git add .
+: 1664055970:0;cd /bundle
+: 1664055970:0;ls
+: 1664055970:0;pwd
+: 1664055970:0;cd bundle
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;cd ..
+: 1664055970:0;ls -la
+: 1664055970:0;cd .git
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;rm -r .git
+: 1664055970:0;rm -r ~/.vim/.git
+: 1664055970:0;clear
+: 1664055970:0;git add .
+: 1664055970:0;git init
+: 1664055970:0;git add .
+: 1664055970:0;ls -la
+: 1664055970:0;rm -r ~/.vim/.git
+: 1664055970:0;cd bundle
+: 1664055970:0;ls -la
+: 1664055970:0;cd goyo.vim
+: 1664055970:0;rm -r ~/.vim/goyo.vim/.git
+: 1664055970:0;pwd
+: 1664055970:0;rm -r ~/.vim/bundle/goyo.vim/.git
+: 1664055970:0;y
+: 1664055970:0;rm -r ~/.vim/bundle/limelight.vim/.git
+: 1664055970:0;y
+: 1664055970:0;cd ../..
+: 1664055970:0;ls
+: 1664055970:0;git init
+: 1664055970:0;git add .
+: 1664055970:0;git commit -m 'vim dot files'
+: 1664055970:0;git remote add origin 'https://github.com/dfreder1/.vim'
+: 1664055970:0;git push -u origin master
+: 1664055970:0;git status
+: 1664055970:0;git branch -mv origin master
+: 1664055970:0;ls
+: 1664055970:0;git push -u origin main
+: 1664055970:0;ls
+: 1664055970:0;git status
+: 1664055970:0;git add .
+: 1664055970:0;git commit -m 'initial'
+: 1664055970:0;git push -u origin master
+: 1664055970:0;ls -la
+: 1664055970:0;rm -r .git
+: 1664055970:0;clear
+: 1664055970:0;ls
+: 1664055970:0;ls 
+: 1664055970:0;ls -la
+: 1664055970:0;cd 
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;vi .gitconfig
+: 1664055970:0;ls
+: 1664055970:0;clear
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;cd .vim
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;git init
+: 1664055970:0;git add .
+: 1664055970:0;git commit -m 'initial'
+: 1664055970:0;git remote add origin https://github.com/dfreder1/.vim
+: 1664055970:0;git push origin master
+: 1664055970:0;git commit -m 'initial'
+: 1664055970:0;git push origin master
+: 1664055970:0;rm -r .git
+: 1664055970:0;y
+: 1664055970:0;git init
+: 1664055970:0;git add .
+: 1664055970:0;git commit -m 'initial'
+: 1664055970:0;git remote add origin https://github.com/dfreder1/.vim
+: 1664055970:0;git -u push origin main
+: 1664055970:0;git push origin main
+: 1664055970:0;rm -r .git
+: 1664055970:0;git init
+: 1664055970:0;git add .
+: 1664055970:0;git commit -m 'initial'
+: 1664055970:0;git remote add origin git@github.com:dfreder1/vim.git
+: 1664055970:0;git push origin main
+: 1664055970:0;git remote add origin git@github.com:dfreder1/.vim.git
+: 1664055970:0;git push origin main
+: 1664055970:0;rm -r .git
+: 1664055970:0;y
+: 1664055970:0;exit
+: 1664055970:0;clear
+: 1664055970:0;git init -b main
+: 1664055970:0;git add . && git commit -m "intial"
+: 1664055970:0;gh repo create
+: 1664055970:0;git symbolic-ref HEAD refs/heads/main
+: 1664055970:0;git add .
+: 1664055970:0;git commit -m "initial"
+: 1664055970:0;git remote add origin git@github.com:dfreder1/.vim.git
+: 1664055970:0;git remote -v
+: 1664055970:0;git push -u origin main
+: 1664055970:0;ls
+: 1664055970:0;exit
+: 1664055970:0;ssh root@143.110.148.217
+: 1664055970:0;ls -la
+: 1664055970:0;cd .config
+: 1664055970:0;ls
+: 1664055970:0;cd ..
+: 1664055970:0;cd .vim
+: 1664055970:0;ls
+: 1664055970:0;git status
+: 1664055970:0;git pull
+: 1664055970:0;vi
+: 1664055970:0;cd ..
+: 1664055970:0;cd .config
+: 1664055970:0;ls
+: 1664055970:0;git clone git@github.com:dfreder1/.config
+: 1664055970:0;ls
+: 1664055970:0;git status
+: 1664055970:0;ls -la
+: 1664055970:0;cd .config
+: 1664055970:0;ls -la
+: 1664055970:0;rm .git
+: 1664055970:0;rm -r .git
+: 1664055970:0;ls -la
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;rm -r .config
+: 1664055970:0;ls -la
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;mv -r .config config
+: 1664055970:0;mv .config config
+: 1664055970:0;ls -la
+: 1664055970:0;git clone git@github.com:dfreder1/.config
+: 1664055970:0;ls -la
+: 1664055970:0;ls .config
+: 1664055970:0;cd .config
+: 1664055970:0;git status
+: 1664055970:0;git pull
+: 1664055970:0;ls
+: 1664055970:0;cp ~/config/iterm ~/.config
+: 1664055970:0;cp ~/config/iterm2 ~/.config
+: 1664055970:0;mv ~/config/iterm2 ~/.config
+: 1664055970:0;ls
+: 1664055970:0;git add .
+: 1664055970:0;git status
+: 1664055970:0;git commit -a -m 'add iterm'
+: 1664055970:0;git push -u origin main
+: 1664055970:0;git status
+: 1664055970:0;cd ..
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;vi .z
+: 1664055970:0;vi .zcompdump-Dougâ€ƒ¹s\ MacBook\ Air-5.8
+: 1664055970:0;vi .zprofile
+: 1664055970:0;vi .zshrc
+: 1664055970:0;cd /etc
+: 1664055970:0;ls
+: 1664055970:0;vi zshrc
+: 1664055970:0;cd ~
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;touch .zshenv
+: 1664055970:0;vi .zshenv
+: 1664055970:0;clear
+: 1664055970:0;echo $ZDOTDIR
+: 1664055970:0;cd
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;ls z*
+: 1664055970:0;mv .zsh_history ~/.config/zsh
+: 1664055970:0;mv .zsh_sessions ~/.config/zsh
+: 1664055970:0;mv .zshrc ~/.config/zsh
+: 1664055970:0;mv .zshrc.pre-oh-my-zsh ~/.config/zsh
+: 1664055970:0;ls -la
+: 1664055970:0;vi .zprofile
+: 1664055970:0;mv .zprofile ~/.config/zsh
+: 1664055970:0;ls ~/.config/zsh
+: 1664055970:0;cd .config
+: 1664055970:0;ls
+: 1664055970:0;cd zsh
+: 1664055970:0;ls
+: 1664055970:0;ls -la
+: 1664055970:0;exit
