@@ -1,0 +1,3 @@
+: 1664056880:0;git status
+: 1664056895:0;git add .
+: 1664056910:0;git commit -a -m 'ohmyzsh'
