@@ -1005,3 +1005,46 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 : 1664055926:0;echo $ZDOTDIR
 : 1664055957:0;echo $SHELL
 : 1664055969:0;exit
+: 1664056880:0;git status
+: 1664056895:0;git add .
+: 1664056910:0;git commit -a -m 'ohmyzsh'
+: 1664056920:0;git push -u origin master
+: 1664056931:0;cd ..
+: 1664056937:0;git status
+: 1664056940:0;clear
+: 1664056945:0;git status
+: 1664056955:0;git add .
+: 1664056972:0;cd .oh-my-zsh
+: 1664056975:0;ls -la
+: 1664057006:0;rm -r .git
+: 1664057081:0;rm --help
+: 1664057087:0;rm -h
+: 1664057100:0;man rm
+: 1664057142:0;rm -rf .git
+: 1664057146:0;ls -la
+: 1664057153:0;rm -rf .github
+: 1664057173:0;rm .git*
+: 1664057175:0;ls -la
+: 1664057180:0;cd ..
+: 1664057185:0;git status
+: 1664057207:0;git add .
+: 1664057217:0;git push -u origin main
+: 1664058046:0;exit
+: 1664126369:0;ssh -i ~/.ssh/mini_id_rsa billevans@192.168.1.217
+: 1664127396:0;ping -c 3 8.8.8.8
+: 1664250991:0;cd 
+: 1664250992:0;ls
+: 1664250997:0;cd Projects
+: 1664250997:0;ls
+: 1664251016:0;cd vimexamples
+: 1664251017:0;ls
+: 1664251023:0;cd the_vim_way
+: 1664251023:0;ls
+: 1664251030:0;vi 0_mechanics.txt
+: 1664251687:0;vi 2_foo_bar.js
+: 1664254612:0;exit
+: 1664499406:0;tmux
+: 1664500511:0;tmux ls
+: 1664500530:0;tmux detach
+: 1664500713:0;:kill-server
+: 1664500717:0;tmux
