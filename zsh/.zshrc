@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 echo "Started to read ~/.config/.zshrc from top"
-
+alias vi="vim"
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.config/.oh-my-zsh"
 
@@ -112,5 +112,5 @@ PROMPT='@%m %/ $ '
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=/Users/dougs2021air/bin:/usr/local/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin
 #
-ECHO "End of ~/.config/.zshrc reached"
-ECHO "Remember that you have changed the $DOTDIR in .zshenv to point there"
+echo "End of ~/.config/.zshrc reached"
+echo "Remember that you have changed the $DOTDIR in .zshenv to point there"
