@@ -46,11 +46,12 @@ set $down j
 set $left h
 set $right l
 
-# use Mouse+Mod4 to drag floating windows to their wanted position
-floating_modifier Mod4
+# use Mouse+Mod3 to drag floating windows to their wanted position
+floating_modifier Mod3
 
 # start a terminal
-bindsym Mod4+Return exec i3-sensible-terminal
+bindsym Mod4+Return exec alacritty 
+#was i3-sensible-terminal
 
 # kill focused window
 bindsym Mod4+Shift+q kill
@@ -191,6 +192,10 @@ mode "resize" {
 
 bindsym Mod4+r mode "resize"
 
+# Set backgroud with feh 
+exec_always --no-startup-id feh --bgfill ~/backgrounds/casa_streams_lg.jpeg
+#~/.fehbg &
+
 # Start workspaces
 exec --no-startup-id i3-msg 'workspace 1; exec alacritty; workspace 1'
 exec --no-startup-id i3-msg 'workspace 2; exec firefox; workspace 1'
@@ -222,4 +227,4 @@ bar {
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
+#exec i3-config-wizard
