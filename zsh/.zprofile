@@ -3,6 +3,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 alias lsd='ls -ltTGFh -r'
 
 #alias's for remote servers
+alias matrixserver='ssh root@143.110.145.217 -v'
 alias wanpipywww='ssh pipywww@67.164.211.235 -p 27355 -v'
 alias dougdroplet='ssh -p 27350 dougdroplet@104.236.140.250 -v'
 alias dougdb='ssh -p 27350 dougdb@104.236.182.121 -v'
