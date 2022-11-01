@@ -119,6 +119,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 alias lsd='ls -ltTGFh -r'
 
 #alias's for remote servers
+alias tmuxme='tmux attach-session -t 0'
 alias matrixserver='ssh root@143.110.148.217 -v'
 alias dougdroplet2='ssh -p 27350 dougdroplet2@45.55.30.47 -v'
 alias dougdroplet4='ssh minifluxer@134.209.13.113 -v'
