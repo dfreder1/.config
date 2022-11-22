@@ -202,7 +202,6 @@ exec_always --no-startup-id picom &
 
 # Start workspaces
 exec --no-startup-id i3-msg 'workspace 1; exec alacritty; workspace 1'
-exec --no-startup-id i3-msg 'workspace 2; exec firefox; workspace 1'
 
 # Make a launcher
 bindsym Mod4+space mode "$mode_launcher"
