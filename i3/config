@@ -41,6 +41,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
+# Changed to vi like
 set $up k
 set $down j
 set $left h
@@ -201,7 +202,8 @@ exec --no-startup-id feh --no-fehbg --bg-fill 'home/dug/backgrounds/casa_streams
 exec_always --no-startup-id picom &
 
 # Start workspaces
-exec --no-startup-id i3-msg 'workspace 1; exec alacritty; workspace 1'
+exec --no-startup-id i3-msg 'workspace 1; exec alacritty'
+exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 
 # Make a launcher
 bindsym Mod4+space mode "$mode_launcher"
