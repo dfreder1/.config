@@ -1,0 +1,4 @@
+# ignore the zsh sessions directory
+/zsh/.zshsessions/
+# ignore the zsh files below
+/zsh/.zcomp*
