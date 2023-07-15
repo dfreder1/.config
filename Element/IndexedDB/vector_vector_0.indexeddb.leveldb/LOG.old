@@ -1,0 +1,4 @@
+2023/07/15-15:10:38.574 290 Reusing MANIFEST /home/dug/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/15-15:10:38.575 290 Recovering log #17
+2023/07/15-15:10:38.631 290 Reusing old log /home/dug/.config/Element/IndexedDB/vector_vector_0.indexeddb.leveldb/000017.log 
+2023/07/15-15:10:38.632 290 Delete type=2 #16

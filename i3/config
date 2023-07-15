@@ -202,8 +202,18 @@ exec --no-startup-id feh --no-fehbg --bg-fill 'home/dug/backgrounds/casa_streams
 exec_always --no-startup-id picom &
 
 # Start workspaces
-exec --no-startup-id i3-msg 'workspace 1; exec alacritty'
-exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+#exec --no-startup-id i3-msg 'workspace 1; exec alacritty'
+#exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+#exec --no-startup-id i3-msg 'workspace 3; exec element-desktop'
+#exec --no-startup-id i3-msg 'workspace 4; exec obsidian'
+exec --no-startup-id alacritty
+exec --no-startup-id firefox 
+exec --no-startup-id element-desktop
+exec --no-startup-id obsidian
+assign [class="alacritty"] $ws3 
+assign [class="firefox"] $ws2 
+assign [class="element-desktop"] $ws1 
+assign [class="obsidian"] $ws4 
 
 # Make a launcher
 bindsym Mod4+space mode "$mode_launcher"
