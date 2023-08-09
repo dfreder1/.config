@@ -130,9 +130,3 @@ alias irssic='irssi --config ~/.config/irssi/config'
 export APPLE_TEAM_ID="B23JP726WJ"
 export APPLE_KEY_ID="2JF7B2S334"
 export APPLE_SERVICE_ID="bikewx1.dev.ave5"
-export APPLE_PRIVATE_KEY='''
------BEGIN PRIVATE KEY-----
-MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgzZWKqpfjO9Wk4+zl
-6I92Na9rxCblQLCGIW2uMFq9wEihRANCAARjFfqyOWzX9KmD/OKRcItoFcZbJfpe
-/XumAotXyFlcNNJqTX+ccjXqRnKsgaxjYw0kjfia9HrWWmBr1dafn0Y9
------END PRIVATE KEY-----'''
