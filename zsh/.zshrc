@@ -13,7 +13,6 @@ export PATH=/Users/dougs2021air/bin:/usr/local/bin:/Users/dougs2021air/.pyenv/pl
 echo "Started to read ~/.config/.zshrc from top"
 alias vi="vim"
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.config/.oh-my-zsh"
 export D74="24:71:89:A2:EA:64"
 
 # Set name of the theme to load --- if set to "random", it will
