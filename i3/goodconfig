@@ -11,7 +11,7 @@
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:monospace 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -26,11 +26,11 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+#exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -41,16 +41,18 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
+# Changed to vi like
 set $up k
 set $down j
 set $left h
 set $right l
 
-# use Mouse+Mod4 to drag floating windows to their wanted position
-floating_modifier Mod4
+# use Mouse+Mod3 to drag floating windows to their wanted position
+floating_modifier Mod3
 
 # start a terminal
-bindsym Mod4+Return exec i3-sensible-terminal
+bindsym Mod4+Return exec alacritty 
+#was i3-sensible-terminal
 
 # kill focused window
 bindsym Mod4+Shift+q kill
@@ -191,9 +193,28 @@ mode "resize" {
 
 bindsym Mod4+r mode "resize"
 
+# Set backgroud with feh 
+exec --no-startup-id feh --no-fehbg --bg-fill 'home/dug/backgrounds/casa_streams_lg.jpeg'
+#cd ~
+#./.fehbg
+
+# Use picom to make i3 transparent see .config/picom.conf
+exec_always --no-startup-id picom &
+
 # Start workspaces
-exec --no-startup-id i3-msg 'workspace 1; exec alacritty; workspace 1'
-exec --no-startup-id i3-msg 'workspace 2; exec firefox; workspace 1'
+#exec --no-startup-id i3-msg 'workspace 1; exec alacritty'
+#exec --no-startup-id i3-msg 'workspace 2; exec firefox'
+#exec --no-startup-id i3-msg 'workspace 3; exec element-desktop'
+#exec --no-startup-id i3-msg 'workspace 4; exec obsidian'
+exec --no-startup-id alacritty
+assign [class="alacritty"] $ws1 
+exec --no-startup-id firefox 
+assign [class="firefox"] $ws2 
+exec --no-startup-id obsidian
+assign [class="obsidian"] $ws3 
+# maybe add a pause here?
+exec --no-startup-id element-desktop
+assign [class="element-desktop"] $ws4 
 
 # Make a launcher
 bindsym Mod4+space mode "$mode_launcher"
@@ -209,7 +230,7 @@ mode "$mode_launcher" {
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+        status_command i3status -c ~/.config/i3/i3status.conf
 }
 
 #######################################################################
@@ -222,4 +243,4 @@ bar {
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
+#exec i3-config-wizard
