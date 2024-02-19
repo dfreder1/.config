@@ -2,7 +2,15 @@
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 if [[ $(uname) == "Darwin" ]]; then
     echo 'Darwin'
-    export PATH=/Users/dougs2021air/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin
+    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dougs2021air/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin
+elif command -v pacman > /dev/null; then
+    echo 'archlinux'
+    export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+elif command -v apt > /dev/null; then
+    echo 'debian'
+    export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+else
+    echo 'Unknown OS! update zshrc file'
 fi
 
 echo "Started to read ~/.config/.zshrc from top"

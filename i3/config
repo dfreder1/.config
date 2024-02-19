@@ -212,8 +212,9 @@ exec --no-startup-id firefox
 assign [class="firefox"] $ws2 
 exec --no-startup-id obsidian
 assign [class="obsidian"] $ws3 
-# maybe add a pause here?
+sleep 2 
 exec --no-startup-id element-desktop
+sleep 2
 assign [class="element-desktop"] $ws4 
 
 # Make a launcher
