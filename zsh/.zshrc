@@ -1,9 +1,12 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-export PATH=/Users/dougs2021air/bin:/usr/local/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin
+export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+if [[ $(uname) == "Darwin" ]]; then
+    echo 'Darwin'
+    export PATH=/Users/dougs2021air/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin
+fi
 
 echo "Started to read ~/.config/.zshrc from top"
+
 alias vi="vim"
 export D74="24:71:89:A2:EA:64"
 
@@ -119,7 +122,7 @@ export LC_CTYPE="en_US.UTF-8"
 #
 echo "End of ~/.config/.zshrc reached"
 echo "Remember that you have changed the $DOTDIR in .zshenv to point there"
-eval "$(/opt/homebrew/bin/brew shellenv)"
+# eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias lsd='ls -ltTGFh -r'
 
@@ -129,9 +132,7 @@ alias matrixserver='ssh root@143.110.148.217 -v'
 alias dougdroplet2='ssh -p 27350 dougdroplet2@45.55.30.47 -v'
 alias sshon7='ssh pi@192.168.6.6 -p 27357 -v'
 alias irssic='irssi --config ~/.config/irssi/config'
-export APPLE_TEAM_ID="B23JP726WJ"
-export APPLE_KEY_ID="2JF7B2S334"
-export APPLE_SERVICE_ID="bikewx1.dev.ave5"
+alias tmds='tmux attach-session -t dugsesh'
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
