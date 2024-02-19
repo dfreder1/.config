@@ -206,16 +206,15 @@ exec_always --no-startup-id picom &
 #exec --no-startup-id i3-msg 'workspace 2; exec firefox'
 #exec --no-startup-id i3-msg 'workspace 3; exec element-desktop'
 #exec --no-startup-id i3-msg 'workspace 4; exec obsidian'
-exec --no-startup-id alacritty
-assign [class="alacritty"] $ws1 
 exec --no-startup-id firefox 
 assign [class="firefox"] $ws2 
 exec --no-startup-id obsidian
 assign [class="obsidian"] $ws3 
-sleep 2 
-exec --no-startup-id element-desktop
-sleep 2
-assign [class="element-desktop"] $ws4 
+# it doesn't like element to start in own ws
+#exec --no-startup-id element-desktop
+#assign [class="element-desktop"] $ws4 
+exec --no-startup-id alacritty
+assign [class="alacritty"] $ws1 
 
 # Make a launcher
 bindsym Mod4+space mode "$mode_launcher"
