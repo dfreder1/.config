@@ -1,6 +1,7 @@
 obsidian/
 joplin-desktop/
-zsh/.z*
+zsh/.zcompdump*
+zsh/.zsh_sessions
 Element/
 
 
