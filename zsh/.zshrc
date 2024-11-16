@@ -141,6 +141,7 @@ alias dougdroplet2='ssh -p 27350 dougdroplet2@45.55.30.47 -v'
 alias sshon7='ssh pi@192.168.6.6 -p 27357 -v'
 alias irssic='irssi --config ~/.config/irssi/config'
 alias tmds='tmux attach-session -t dugsesh'
+alias tmd='tmux detach'
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
