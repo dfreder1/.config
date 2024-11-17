@@ -1,3 +1,2 @@
-2023/07/15-15:10:39.214 2b2 Reusing MANIFEST /home/dug/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/07/15-15:10:39.215 2b2 Recovering log #3
-2023/07/15-15:10:39.278 2b2 Reusing old log /home/dug/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
+2024/11/16-19:26:13.985 612 Creating DB /home/dug/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb since it was missing.
+2024/11/16-19:26:14.017 612 Reusing MANIFEST /home/dug/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001

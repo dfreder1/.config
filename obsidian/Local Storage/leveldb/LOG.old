@@ -1,3 +1,2 @@
-2023/07/15-15:10:34.168 2af Reusing MANIFEST /home/dug/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2023/07/15-15:10:34.171 2af Recovering log #3
-2023/07/15-15:10:34.177 2af Reusing old log /home/dug/.config/obsidian/Local Storage/leveldb/000003.log 
+2024/11/16-19:23:16.374 613 Creating DB /home/dug/.config/obsidian/Local Storage/leveldb since it was missing.
+2024/11/16-19:23:16.435 613 Reusing MANIFEST /home/dug/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
