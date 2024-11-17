@@ -12,9 +12,14 @@ style = "Regular"
 
 [window]
 decorations = "full"
+startup_mode = "Maximized"
 dynamic_title = true
 opacity = 0.8
 title = "Alacritty"
+
+#[window.dimensions]
+#columns = 80
+#lines = 40
 
 [window.padding]
 x = 10
