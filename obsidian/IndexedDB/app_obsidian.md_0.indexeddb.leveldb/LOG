@@ -1,15 +1,10 @@
-2024/11/16-19:27:52.393 30c Reusing MANIFEST /home/dug/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/16-19:27:52.395 30c Recovering log #3
-2024/11/16-19:27:52.403 30c Reusing old log /home/dug/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
-2024/11/16-19:40:29.858 37d Level-0 table #5: started
-2024/11/16-19:40:30.024 37d Level-0 table #5: 1426960 bytes OK
-2024/11/16-19:40:30.030 37d Delete type=0 #3
-2024/11/16-19:43:14.104 30c Level-0 table #7: started
-2024/11/16-19:43:14.232 30c Level-0 table #7: 1315981 bytes OK
-2024/11/16-19:43:14.244 30c Delete type=0 #4
-2024/11/16-19:43:26.088 30c Compacting 1@1 + 1@2 files
-2024/11/16-19:43:26.291 30c Generated table #8@1: 8500 keys, 1661897 bytes
-2024/11/16-19:43:26.292 30c Compacted 1@1 + 1@2 files => 1661897 bytes
-2024/11/16-19:43:26.295 30c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/11/16-19:43:26.296 30c Delete type=2 #7
-2024/11/16-19:43:26.297 30c Delete type=2 #5
+2024/11/16-19:57:37.532 335 Reusing MANIFEST /home/dug/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/16-19:57:37.537 335 Recovering log #6
+2024/11/16-19:57:37.593 335 Reusing old log /home/dug/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000006.log 
+2024/11/16-19:57:57.084 381 Level-0 table #11: started
+2024/11/16-19:57:57.238 381 Level-0 table #11: 1356462 bytes OK
+2024/11/16-19:57:57.247 381 Delete type=0 #6
+2024/11/16-19:57:57.473 335 Compacting 1@1 + 1@2 files
+2024/11/16-19:57:57.696 335 Generated table #12@1: 8861 keys, 1691734 bytes
+2024/11/16-19:57:57.697 335 Compacted 1@1 + 1@2 files => 1691734 bytes
+2024/11/16-19:57:57.702 335 compacted to: files[ 0 0 1 0 0 0 0 ]
