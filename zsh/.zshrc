@@ -1,21 +1,27 @@
+WIDTH = 80
 # If you come from bash you might have to change your $PATH.
+echo "  "
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 if [[ $(uname) == "Darwin" ]]; then
     echo 'Darwin'
+    cat ~/.config/zsh/darwin.txt
     export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dougs2021air/.local/bin:/Users/dougs2021air/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin
 elif command -v pacman > /dev/null; then
     echo 'archlinux'
     export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+    cat ~/.config/zsh/archlinux.txt
 elif command -v apt > /dev/null; then
     echo 'debian'
+    cat ~/.config/zsh/debian.txt
     export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 else
     echo 'Unknown OS! update zshrc file'
 fi
 
+echo " " 
 echo "Started to read ~/.config/.zshrc from top"
+echo "Exporting ZSH=Home/.config/oh-my-zsh"
 
-alias vi="vim"
 export D74="24:71:89:A2:EA:64"
 
 # Path to your oh-my-zsh installation.
@@ -129,7 +135,7 @@ export LC_CTYPE="en_US.UTF-8"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 echo "End of ~/.config/.zshrc reached"
-echo "Remember that you have changed the $DOTDIR in .zshenv to point there"
+echo "  "
 # eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias lsd='ls -ltTGFh -r'
@@ -137,6 +143,7 @@ alias lsd='ls -ltTGFh -r'
 #alias's for remote servers
 #alias tmuxme='tmux attach-session -t 0'
 alias matrixserver='ssh root@143.110.148.217 -v'
+alias vi="vim"
 alias dougdroplet2='ssh -p 27350 dougdroplet2@45.55.30.47 -v'
 alias sshon7='ssh pi@192.168.6.6 -p 27357 -v'
 alias irssic='irssi --config ~/.config/irssi/config'
