@@ -19,7 +19,7 @@ else
 fi
 
 echo " " 
-echo "Started to read ~/.config/.zshrc from top"
+echo "Started to read ~/.config/zsh/.zshrc from top"
 echo "Exporting ZSH=Home/.config/oh-my-zsh"
 
 export D74="24:71:89:A2:EA:64"
@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+#eval "$(pyenv virtualenv-init -)"
 
 # Customize shell
 #PROMPT='%n@%m %/ $ '
@@ -134,7 +134,7 @@ export LC_CTYPE="en_US.UTF-8"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-echo "End of ~/.config/.zshrc reached"
+echo "End of ~/.config/zsh/.zshrc reached"
 echo "  "
 # eval "$(/opt/homebrew/bin/brew shellenv)"
 
