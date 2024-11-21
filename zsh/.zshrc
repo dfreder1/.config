@@ -1,17 +1,16 @@
-WIDTH = 80
 # If you come from bash you might have to change your $PATH.
 echo "  "
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 if [[ $(uname) == "Darwin" ]]; then
-    echo 'Darwin'
+    echo ' '
     cat ~/.config/zsh/darwin.txt
     export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dougs2021air/.local/bin:/Users/dougs2021air/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin
 elif command -v pacman > /dev/null; then
-    echo 'archlinux'
+    echo ' '
     export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
     cat ~/.config/zsh/archlinux.txt
 elif command -v apt > /dev/null; then
-    echo 'debian'
+    echo ' '
     cat ~/.config/zsh/debian.txt
     export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 else
@@ -138,7 +137,7 @@ echo "End of ~/.config/zsh/.zshrc reached"
 echo "  "
 # eval "$(/opt/homebrew/bin/brew shellenv)"
 
-alias lsd='ls -ltTGFh -r'
+alias lst='ls -latr'
 
 #alias's for remote servers
 #alias tmuxme='tmux attach-session -t 0'
@@ -149,6 +148,7 @@ alias sshon7='ssh pi@192.168.6.6 -p 27357 -v'
 alias irssic='irssi --config ~/.config/irssi/config'
 alias tmds='tmux attach-session -t dugsesh'
 alias tmd='tmux detach'
+alias fv='vi $(fzf)'
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh

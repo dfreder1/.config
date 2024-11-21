@@ -1,3 +1,4 @@
+[general]
 import = ["/Users/dougs2021air/.config/alacritty/themes/tomorrow_night.yml"]
 
 [colors]
