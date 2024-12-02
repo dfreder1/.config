@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
-#eval "$(pyenv virtualenv-init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # Customize shell
 #PROMPT='%n@%m %/ $ '
@@ -110,9 +110,9 @@ PROMPT='@%m %/ $ '
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-export LANG="en_US.UTF-8"
-export LC_ALL="en_US.UTF-8"
-export LC_CTYPE="en_US.UTF-8"
+#export LANG="en_US.UTF-8"
+#export LC_ALL="en_US.UTF-8"
+#export LC_CTYPE="en_US.UTF-8"
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -149,6 +149,7 @@ alias irssic='irssi --config ~/.config/irssi/config'
 alias tmds='tmux attach-session -t dugsesh'
 alias tmd='tmux detach'
 alias fv='vi $(fzf)'
+alias fd='cd $(find . -type d -print | fzf)'
 
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
