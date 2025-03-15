@@ -1,18 +1,19 @@
-# If you come from bash you might have to change your $PATH.
 echo "  "
-export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+# export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:$PATH
 if [[ $(uname) == "Darwin" ]]; then
     echo ' '
     cat ~/.config/zsh/darwin.txt
-    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dougs2021air/.local/bin:/Users/dougs2021air/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin
+    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dougs2021air/.local/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin:$HOME/bin:$PATH
+    alias obsmacs='cd /Users/dougs2021air/RemoteVaultMacOS' && 'ls obs*'
 elif command -v pacman > /dev/null; then
     echo ' '
-    export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/$PATH
     cat ~/.config/zsh/archlinux.txt
+    alias obsmacs='cd ~/RemoteVault'
 elif command -v apt > /dev/null; then
     echo ' '
     cat ~/.config/zsh/debian.txt
-    export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:/$PATH
 else
     echo 'Unknown OS! update zshrc file'
 fi
@@ -133,27 +134,29 @@ PROMPT='@%m %/ $ '
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-echo "End of ~/.config/zsh/.zshrc reached"
-echo "  "
-# eval "$(/opt/homebrew/bin/brew shellenv)"
+ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias lst='ls -latr'
 
 #alias's for remote servers
 #alias tmuxme='tmux attach-session -t 0'
-alias matrixserver='ssh root@143.110.148.217 -v'
+#alias matrixserver='ssh root@143.110.148.217 -v'
 alias vi="vim"
 alias dougdroplet2='ssh -p 27350 dougdroplet2@45.55.30.47 -v'
 alias sshon7='ssh pi@192.168.6.6 -p 27357 -v'
 alias irssic='irssi --config ~/.config/irssi/config'
-alias tmds='tmux attach-session -t dugsesh'
-alias tmdw='tmux attach-session -t direwolf'
+#alias tmds='tmux attach-session -t dugsesh'
+#alias tmdw='tmux attach-session -t direwolf'
 alias tmd='tmux detach'
 alias fv='vi $(fzf)'
 alias fd='cd $(find . -type d -print | fzf)'
-
+#alias obs='cd /users/dougs2021air/RemoteVaultMacOS && vim $(fzf --query ".md")'
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 # fuzzyfind
 source <(fzf --zsh)
+
+echo "End of ~/.config/zsh/.zshrc reached"
+echo "  "
+#
