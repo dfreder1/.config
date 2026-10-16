@@ -6,11 +6,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 echo "  "
-# export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:$PATH
+ #export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/bin:$PATH
 if [[ $(uname) == "Darwin" ]]; then
     echo ' '
     cat ~/.config/zsh/darwin.txt
+    export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
     export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dougs2021air/.local/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin:$HOME/bin:$PATH
+    export PATH="$PATH:/Applications/NonApple/Tailscale.app/Contents/MacOS"
 #    alias obsmacs='cd /Users/dougs2021air/RemoteVaultMacOS' && 'ls obs*'
 elif command -v pacman > /dev/null; then
     echo ' '
