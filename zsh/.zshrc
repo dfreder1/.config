@@ -3,7 +3,7 @@ echo "  "
 if [[ $(uname) == "Darwin" ]]; then
     echo ' '
     cat ~/.config/zsh/darwin.txt
-    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dougs2021air/.local/bin:/Users/dougs2021air/.pyenv/plugins/pyenv-virtualenv/shims:/Users/dougs2021air/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin:$HOME/bin:$PATH
+    export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.local/bin:$HOME/.pyenv/plugins/pyenv-virtualenv/shims:$HOME/.pyenv/bin:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/opt/homebrew/bin:$HOME/bin:$PATH
     alias obsmacs='cd /Users/dougs2021air/RemoteVaultMacOS' && 'ls obs*'
 elif command -v pacman > /dev/null; then
     echo ' '
@@ -22,10 +22,8 @@ echo " "
 echo "Started to read ~/.config/zsh/.zshrc from top"
 echo "Exporting ZSH=Home/.config/oh-my-zsh"
 
-export D74="24:71:89:A2:EA:64"
-
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.config/oh-my-zsh"
+#export ZSH="$HOME/.config/oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -94,9 +92,9 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z)
+#plugins=(git z)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export PATH="$HOME/.pyenv/bin:$PATH"
@@ -117,7 +115,7 @@ PROMPT='@%m %/ $ '
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+export EDITOR='vi'
 # else
 #   export EDITOR='mvim'
 # fi
